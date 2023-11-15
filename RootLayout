@@ -64,12 +64,7 @@ export default function RootLayout() {
             <NavLink
               to="/lista-compras"
               className={({ isActive }) => `${navLinkClassName} ${isActive ? "text-teal-600" : ""}`}>
-              Lista de Compras
-            </NavLink>
-            <NavLink
-              to="/produtos"
-              className={({ isActive }) => `${navLinkClassName} ${isActive ? "text-teal-600" : ""}`}>
-              Produtos
+              FirstScream 
             </NavLink>
           </nav>
           <div
@@ -97,3 +92,4 @@ export default function RootLayout() {
     </>
   );
 }
+
