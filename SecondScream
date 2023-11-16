@@ -1,0 +1,82 @@
+import { useState } from 'react';
+import './App.css';
+
+export default function FirstScream() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <>
+      <div id="chat-screen">
+      <header>
+        <h2>X salada Top</h2>
+      </header>
+      <div id="lista" class="messages-list">
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">Blabla blabla blabla?</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat">Blablaaaa Bla</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat">Bla blabla Ba</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">KKKKKKKKKKK blabla?</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">Blabla Blaaba</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">Blabla blabla blabla?</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat">Blablaaaa Bla</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat">Bla blabla Ba</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">KKKKKKKKKKK blabla?</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">Blabla Blaaba</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">Blabla blabla blabla?</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat">Blablaaaa Bla</div>
+        </div>
+        <div class="message-item message-user">
+          <div class="msg-user"><strong>Você diz:</strong></div>
+          <div class="msg-chat">Bla blabla Ba</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">KKKKKKKKKKK blabla?</div>
+        </div>
+        <div class="message-item">
+          <div class="msg-user"><strong>Atendente diz:</strong></div>
+          <div class="msg-chat">Blabla Blaaba</div>
+        </div>
+      </div>
+      <form id="form-chat-send" action="index.html" method="post">
+        <input type="text" id="message" name="message" placeholder="Digite sua mensagem..." />
+        <button id="btEnviar" type="submit">ENVIAR</button>
+      </form>
+    </div>
+    </>
+  );
+}
