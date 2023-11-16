@@ -20,6 +20,12 @@ export default function FirstScream() {
         name="message"
         placeholder="Digite seu Nome aqui"
       />
+<input
+        type="text"
+        id="message"
+        name="message"
+        placeholder="Digite seu Gmail aqui"
+      />
       <p></p>
      <div className="my-6">
   <Link
